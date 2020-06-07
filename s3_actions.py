@@ -86,10 +86,3 @@ def download_all_files(bucket_name, absolute_route):
         s3.Bucket(bucket_name).download_file(key, path)
 
     print('Descarga exitosa...')
-
-
-
-
-
-
-print('todo ok')
